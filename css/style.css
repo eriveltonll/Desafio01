@@ -1,0 +1,59 @@
+body {
+  padding: 10px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+
+  border-radius: 50%;
+}
+
+.usuarios-container {
+  display: flex;
+}
+
+.usuarios-list {
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#texto {
+  font-size: 12pt;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+#countUsuariosEncontrados {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20pt;
+}
+#estatistica {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20pt;
+}
+#totalSexoMasculino {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+}
+#totalSexoFeminino {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+}
+#totalSomaDasIdades {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+}
+#totalMediaDasIdades {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+}
